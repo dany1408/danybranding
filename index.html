@@ -5,12 +5,14 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Dany Zavala | Diseño Gráfico</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
   <style>
     body {
       margin: 0;
-      font-family: Arial, sans-serif;
+      font-family: 'Inter', sans-serif;
       background-color: #f8f8f8;
       color: #333;
+      line-height: 1.6;
     }
 
     .navbar {
@@ -19,37 +21,56 @@
       width: 100%;
       background-color: white;
       border-bottom: 1px solid #ddd;
-      padding: 12px 24px;
+      padding: 16px 24px;
       display: flex;
       justify-content: center;
       gap: 2rem;
       z-index: 1000;
+      font-weight: 500;
     }
 
     .navbar a {
       text-decoration: none;
       color: #333;
-      font-weight: 500;
+      font-size: 16px;
     }
 
     .section {
-      padding: 100px 20px 60px;
-      max-width: 800px;
+      padding: 100px 20px 80px;
+      max-width: 720px;
       margin: 0 auto;
-    }
-
-    .section h1, .section h2 {
-      color: #222;
       text-align: center;
     }
 
+    .section h1 {
+      font-size: 40px;
+      font-weight: 700;
+      margin-bottom: 10px;
+    }
+
+    .section h2 {
+      font-size: 28px;
+      font-weight: 600;
+      margin-bottom: 20px;
+    }
+
+    .section p {
+      font-size: 18px;
+      margin-bottom: 16px;
+    }
+
     .section ul {
-      list-style: disc;
-      padding-left: 20px;
+      list-style: none;
+      padding: 0;
+    }
+
+    .section ul li {
+      font-size: 18px;
+      margin: 8px 0;
     }
 
     .section a {
-      color: #555;
+      color: #444;
     }
 
     body::before {
